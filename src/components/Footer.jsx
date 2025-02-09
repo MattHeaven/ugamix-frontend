@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/UgaMix.svg';
 import Placeholder from '../assets/cookware-2.png';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -48,11 +49,11 @@ function Footer() {
           <div>
             <h3 className="text-[#ffe67b] font-bold mb-3">NAVIGATION</h3>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">What We Do</a></li>
-              <li><a href="">Background</a></li>
-              <li><a href="">Donate</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="">What We Do</Link></li>
+              <li><Link to="">Background</Link></li>
+              <li><Link to="">Donate</Link></li>
             </ul>
           </div>
           <div>
@@ -68,9 +69,9 @@ function Footer() {
           <div>
             <h3 className="text-[#ffe67b] font-bold mb-3">LEGAL</h3>
             <ul>
-              <li><a href="">General Info</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Terms of Service</a></li>
+              <li><Link to="">General Info</Link></li>
+              <li><Link to="">Privacy Policy</Link></li>
+              <li><Link to="">Terms of Service</Link></li>
             </ul>
           </div>
           <div>

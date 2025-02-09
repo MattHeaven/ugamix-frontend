@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "../assets/UgaMix.svg";
+import { Link } from "react-router-dom";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,15 +17,15 @@ export default function Navbar() {
         
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#about" className="text-[#ffe67b] transition duration-200 hover:underline ">About UgaMix</a>
-          <a href="#support" className="text-[#ffe67b] hover:underline transition duration-200">Support</a>
-          <a href="#blog" className="text-[#ffe67b] hover:underline transition duration-200">Blog</a>
+          <Link to="/about" className="text-[#ffe67b] transition duration-200 hover:underline ">About UgaMix</Link>
+          <Link to="/support" className="text-[#ffe67b] hover:underline transition duration-200">Support</Link>
+          <Link to="/blog" className="text-[#ffe67b] hover:underline transition duration-200">Blog</Link>
         </nav>
         
         {/* Order Now Button */}
-        <a href="#order" className="hidden md:block bg-[#ffe67b] text-black px-4 py-2 rounded-sm hover:bg-black hover:text-[#ffe67b] transition duration-200 hover:border-[#ffe67b] border-[#ffe67b] border-2">
+        <Link to="/order" className="hidden md:block bg-[#ffe67b] text-black px-4 py-2 rounded-sm hover:bg-black hover:text-[#ffe67b] transition duration-200 hover:border-[#ffe67b] border-[#ffe67b] border-2">
           Order Now
-        </a>
+        </Link>
         
         {/* Mobile Menu Button */}
         <button className="md:hidden text-[#ffe67b] transition duration-500 ease-in-out cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
