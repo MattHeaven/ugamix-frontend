@@ -11,9 +11,9 @@ export default function Navbar() {
     <header className="bg-black shadow-md">
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold text-gray-800">
+        <Link to="/" className="text-xl font-bold text-gray-800">
           <img src={Logo} alt="" />
-        </a>
+        </Link>
         
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6">
@@ -35,15 +35,40 @@ export default function Navbar() {
       
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden bg-black border-t p-4 space-y-3 transition duration-1000">
-          <a href="#about" className="block text-[#ffe67b] transition duration-200 hover:underline">About UgaMix</a>
-          <a href="#support" className="block text-[#ffe67b] transition duration-200 hover:underline">Support</a>
-          <a href="#blog" className="block text-[#ffe67b] transition duration-200 hover:underline">Blog</a>
-          <a href="#order" className="inline-block bg-[#ffe67b] text-black px-4 py-2 rounded-sm hover:bg-black hover:text-[#ffe67b] transition duration-200 hover:border-[#ffe67b] border-[#ffe67b] border-2">
-            Order Now
-          </a>
-        </nav>
-      )}
+  <nav className="md:hidden bg-black border-t p-4 space-y-3 transition duration-1000">
+    <Link 
+      to="/about" 
+      className="block text-[#ffe67b] transition duration-200 hover:underline" 
+      onClick={() => setIsOpen(false)}
+    >
+      About UgaMix
+    </Link>
+    
+    <Link 
+      to="/support" 
+      className="block text-[#ffe67b] transition duration-200 hover:underline" 
+      onClick={() => setIsOpen(false)}
+    >
+      Support
+    </Link>
+    
+    <Link 
+      to="/blog" 
+      className="block text-[#ffe67b] transition duration-200 hover:underline" 
+      onClick={() => setIsOpen(false)}
+    >
+      Blog
+    </Link>
+    
+    <Link 
+      to="/order" 
+      className="inline-block bg-[#ffe67b] text-black px-4 py-2 rounded-sm hover:bg-black hover:text-[#ffe67b] transition duration-200 hover:border-[#ffe67b] border-[#ffe67b] border-2"
+      onClick={() => setIsOpen(false)}
+    >
+      Order Now
+    </Link>
+  </nav>
+)}
     </header>
   );
 }

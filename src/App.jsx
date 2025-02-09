@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="min-h-screen">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

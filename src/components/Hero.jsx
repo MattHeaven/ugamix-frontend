@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroBackground from '../assets/hero-background.png';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -13,12 +14,12 @@ function Hero() {
             Empowering Busy Families with <span className="text-[#ffe67b]">Sustainable</span>, Nutritious Meals
           </h1>
           <div className="mt-6 flex space-x-4">
-            <a href="#" className="px-6 py-3 bg-transparent border border-[#ffe67b] text-[#ffe67b] rounded-lg text-lg md:text-xl hover:bg-[#ffe67b] hover:text-black grow vertical-center transition duration-300 font-bold">
+            <Link to="/about" className="px-6 py-3 bg-transparent border border-[#ffe67b] text-[#ffe67b] rounded-lg text-lg md:text-xl hover:bg-[#ffe67b] hover:text-black grow vertical-center transition duration-300 font-bold">
               DISCOVER
-            </a>
-            <a href="#" className="px-6 py-3 bg-[#ffe67b] text-black rounded-lg text-lg md:text-xl hover:text-[#ffe67b] hover:bg-black hover:border-1 grow w-full vertical-center transition duration-600 font-bold">
+            </Link>
+            <Link to="/order" className="px-6 py-3 bg-[#ffe67b] text-black rounded-lg text-lg md:text-xl hover:text-[#ffe67b] hover:bg-black hover:border-1 grow w-full vertical-center transition duration-600 font-bold">
               ORDER NOW
-            </a>
+            </Link>
           </div>
         </div>
       </section>
