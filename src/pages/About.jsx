@@ -177,7 +177,7 @@ function About() {
         </div>
         </section>
 
-        <section className="py-16 bg-black px-8 md:px-16">
+        {/* <section className="py-16 bg-black px-8 md:px-16">
         <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
             How <span className="text-[#ffe67b]">UgaMix</span> Works
@@ -205,7 +205,7 @@ function About() {
         <p className="text-center mt-6 text-white max-w-2xl mx-auto">
             No more guesswork or wasted ingredients. <span className="font-bold">UgaMix</span> ensures consistent, delicious results every time.
         </p>
-        </section>
+        </section> */}
 
         <section className="py-16 bg-black text-white">
             <div className="max-w-5xl mx-auto text-center">
