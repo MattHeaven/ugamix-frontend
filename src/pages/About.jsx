@@ -11,22 +11,22 @@ function About() {
         {
           number: "1",
           text: "Load maize flour and water into the device.",
-          image: "src/assets/Baking.png"
+          image: "Baking.png"
         },
         {
           number: "2",
           text: "Select your preferred texture: soft, medium, or hard.",
-          image: "src/assets/OrderingFoodOnline.png"
+          image: "OrderingFoodOnline.png"
         },
         {
           number: "3",
           text: "Set the number of servings and cooking time.",
-          image: "src/assets/Chef.png"
+          image: "Chef.png"
         },
         {
           number: "4",
           text: "Press start—UgaMix heats, mixes, and delivers perfectly cooked maize meal in minutes.",
-          image: "src/assets/CookingatHome.png"
+          image: "CookingatHome.png"
         }
       ];
 
@@ -36,25 +36,25 @@ function About() {
           title: "SDG-Friendly Cooking",
           description:
             "UgaMix saves over 3 million trees annually, reduces respiratory diseases, and promotes clean energy.",
-          image: "src/assets/whyUgaMix1.png",
+          image: "whyUgaMix1.png",
         },
         {
           title: "Gender Equality",
           description:
             "Automates cooking, freeing women to pursue education and careers.",
-          image: "src/assets/whyUgaMix2.png",
+          image: "whyUgaMix2.png",
         },
         {
           title: "Standardized Quality",
           description:
             "Precise measurements ensure perfect meals every time.",
-          image: "src/assets/whyUgaMix3.png",
+          image: "whyUgaMix3.png",
         },
         {
           title: "Adaptability",
           description:
             "Make ugali, uji, fufu, and more—ideal for homes, schools, and hotels.",
-          image: "src/assets/whyUgaMix4.png",
+          image: "whyUgaMix4.png",
         },
       ];
 
@@ -63,43 +63,43 @@ function About() {
           id: 3,
           title: "Good Health & Well-being",
           description: "Reduces respiratory diseases.",
-          image: "src/assets/sdg3.png",
+          image: "sdg3.png",
         },
         {
           id: 5,
           title: "Gender Equality",
           description: "Empowers women by saving time.",
-          image: "src/assets/sdg5.png",
+          image: "sdg5.png",
         },
         {
           id: 7,
           title: "Affordable & Clean Energy",
           description: "Uses electricity instead of firewood.",
-          image: "src/assets/sdg7.png",
+          image: "sdg7.png",
         },
         {
           id: 9,
           title: "Industry, Innovation & Infrastructure",
           description: "Modernizes traditional cooking.",
-          image: "src/assets/sdg9.png",
+          image: "sdg9.png",
         },
         {
           id: 10,
           title: "Reduced Inequalities",
           description: "Makes maize meal accessible to all.",
-          image: "src/assets/sdg10.png",
+          image: "sdg10.png",
         },
         {
           id: 12,
           title: "Responsible Consumption & Production",
           description: "Minimizes waste.",
-          image: "src/assets/sdg12.png",
+          image: "sdg12.png",
         },
         {
           id: 13,
           title: "Climate Action",
           description: "Reduces deforestation and carbon emissions.",
-          image: "src/assets/sdg13.png",
+          image: "sdg13.png",
         },
       ];
 
@@ -107,19 +107,19 @@ function About() {
 
       const slides = [
         {
-          image: "src/assets/hero-background.png",
+          image: "hero-background.png",
           text: "Automated maize meal cooking ensures consistency in quality and nutrition.",
         },
         {
-          image: "src/assets/hero-background.png",
+          image: "hero-background.png",
           text: "Reduces cooking time and effort, making food preparation more efficient.",
         },
         {
-          image: "src/assets/hero-background.png",
+          image: "hero-background.png",
           text: "Perfect for institutions like schools, hotels, and hospitals needing large-scale meal production.",
         },
         {
-          image: "src/assets/hero-background.png",
+          image: "hero-background.png",
           text: "Minimizes fuel consumption and food wastage, promoting sustainability.",
         },
       ];

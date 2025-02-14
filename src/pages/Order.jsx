@@ -16,7 +16,7 @@ function Order() {
         </h2>
         <div className="mt-6">
           <img 
-            src="src/assets/hero-background.png" 
+            src="hero-background.png" 
             alt="UgaMix Device" 
             className="w-full rounded-lg"
           />
